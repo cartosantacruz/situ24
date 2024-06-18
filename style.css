@@ -1,0 +1,45 @@
+/* Estilo para el mapa */
+#map {
+  height: 600px; /* Altura del mapa */
+  width: 100%; /* Ancho del mapa (puedes ajustarlo según tus necesidades) */
+}
+
+/* Estilo para los popups de Leaflet */
+.leaflet-popup-content-wrapper {
+  background: white; /* Fondo del contenido del popup */
+  color: #333; /* Color del texto del popup */
+  font-size: 14px; /* Tamaño de fuente del texto del popup */
+  line-height: 1.4; /* Altura de línea del texto del popup */
+  padding: 10px; /* Espaciado interno del contenido del popup */
+  border-radius: 5px; /* Radio de borde del popup */
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3); /* Sombra del popup */
+}
+
+.leaflet-popup-tip-container {
+  display: none; /* Ocultar la punta del popup */
+}
+
+/* Estilo para el contenedor principal */
+.container {
+  max-width: 1200px; /* Ancho máximo del contenedor */
+  margin: 0 auto; /* Centrar el contenedor */
+  padding: 20px; /* Espaciado interno del contenedor */
+  background-color: #f0f0f0; /* Color de fondo del contenedor */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra del contenedor */
+}
+
+/* Estilo para el encabezado */
+.header {
+  text-align: center; /* Alinear el texto al centro */
+  margin-bottom: 20px; /* Margen inferior del encabezado */
+}
+
+/* Estilo para los enlaces */
+a {
+  color: #3388ff; /* Color del enlace */
+  text-decoration: none; /* Quitar subrayado del enlace */
+}
+
+a:hover {
+  text-decoration: underline; /* Subrayado al pasar el mouse por el enlace */
+}
